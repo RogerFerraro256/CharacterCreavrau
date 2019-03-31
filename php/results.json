@@ -1,0 +1,34 @@
+[
+    {
+        "idPlayer": "1",
+        "name_Jogador": "Roger",
+        "char_Name": "Kratos",
+        "racePlayer": "Semideus",
+        "classPlayer": "guerreiro",
+        "char_His": "Filho de Zeus",
+        "alligment": "Chaotic Evil",
+        "forc": "13",
+        "dest": "18",
+        "const": "9",
+        "intel": "17",
+        "conhe": "8",
+        "car": "16",
+        "char_itens": "raio mestre de zeus"
+    },
+    {
+        "idPlayer": "2",
+        "name_Jogador": "Roger",
+        "char_Name": "Zeus",
+        "racePlayer": "An\u00e3o",
+        "classPlayer": "guerreiro",
+        "char_His": "Deus do cu",
+        "alligment": "Lawful Neutral",
+        "forc": "18",
+        "dest": "12",
+        "const": "20",
+        "intel": "16",
+        "conhe": "13",
+        "car": "11",
+        "char_itens": "pinto"
+    }
+]
