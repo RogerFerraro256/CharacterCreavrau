@@ -12,6 +12,15 @@ body{
     */
 }
 
+.all{
+    width: 450px;
+    
+    float: left;
+    /*
+    background-color: white;
+    */
+}
+
 .fields{
     width: 40px;
     color: black;

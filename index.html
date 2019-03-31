@@ -14,66 +14,74 @@
 
 
 
-
+<div class="all">
     <fieldset>
         <legend>Criar Personagem</legend>
         <form method="POST" action="sendCharacter.php">
-            Nome do Jogador <input type="text" name="name_Jogador" placeholder="Nome do Jogador" required>
+            Nome do Jogador     <input type="text" name="name_Jogador" placeholder="Nome do Jogador" required>
             <br>
-            Nome do Personagem <input type="text" name="char_Name" placeholder="Nome do Personagem" required>
+            Nome do Personagem  <input type="text" name="char_Name" placeholder="Nome do Personagem" required>
             <br>
-            Raça: <select id="race" required>
-                <option value="Humano"> Humano</option>
-                <option value="Semideus"> Semideus</option>
-                <option value="Anão"> Anão</option>
-                <option value="Elfo"> Elfo</option>
-                <option value="Minotauro"> Minotauro</option>
-                <option value="Oceanideo"> Oceanideo</option>
-                <option value="Centauro"> Centauro</option>
-                <option value="Ciclope"> Ciclope</option>
+            História <textarea name="char_His"></textarea>
+            <br>
+            Raça: <select id="race" name="racePlayer" required>
+                <option value="Humano">     Humano</option>
+                <option value="Semideus">   Semideus</option>
+                <option value="Anão">       Anão</option>
+                <option value="Elfo">       Elfo</option>
+                <option value="Minotauro">  Minotauro</option>
+                <option value="Oceanideo">  Oceanideo</option>
+                <option value="Centauro">   Centauro</option>
+                <option value="Ciclope">    Ciclope</option>
                 <option value="Hecatônquiro">Hecatônquiro</option>
+                <option value="Halfling">   Halfling</option>
             </select>
             <br>
-            Classe: <select name="class" required>
-                <option value="mago">Mago</option>
-                <option value="guerreiro"> Guerreiro</option>
-                <option value="Animago"> Animago</option>
-                <option value="Druida"> Druida</option>
-                <option value="Ranger"> Ranger</option>
-                <option value="Ladrão"> Ladrão</option>
-                <option value="Berserk"> Berserk</option>
-                <option value="Psionico"> Psionico</option>
+            Classe: <select name="classPlayer" required>
+                <option value="mago">       Mago</option>
+                <option value="guerreiro">  Guerreiro</option>
+                <option value="Animago">    Animago</option>
+                <option value="Druida">     Druida</option>
+                <option value="Ranger">     Ranger</option>
+                <option value="Ladrão">     Ladrão</option>
+                <option value="Berserk">    Berserk</option>
+                <option value="Psionico">   Psionico</option>
                 <option value="Beastmaster">Beastmaster</option>
             </select><br>
 
             Alinhamento: <select name="alligment" required>
-                <option value="Lawful Good"> Lawful Good</option>
+                <option value="Lawful Good">    Lawful Good</option>
                 <option value="Lawful Neutral"> Lawful Neutral</option>
-                <option value="Lawful Evil"> Lawful Evil</option>
-                <option value="Neutral Good"> Neutral Good</option>
-                <option value="True Neutral"> True Neutral</option>
-                <option value="Neutral Evi"> Neutral Evil</option>
-                <option value="Chaotic Good"> Chaotic Good</option>
+                <option value="Lawful Evil">    Lawful Evil</option>
+                <option value="Neutral Good">   Neutral Good</option>
+                <option value="True Neutral">   True Neutral</option>
+                <option value="Neutral Evi">    Neutral Evil</option>
+                <option value="Chaotic Good">   Chaotic Good</option>
                 <option value="Chaotic Neutral">Chaotic Neutral</option>
-                <option value="Chaotic Evil"> Chaotic Evil</option>
+                <option value="Chaotic Evil">   Chaotic Evil</option>
             </select><br>
 
             <div class="stats">
                 <fieldset>
                     <legend>Stats</legend>
-                    Força <input id="forc" type="number" placeholder="00" class="fields"><br>
-                    Destreza <input id="dest" type="number" placeholder="00" class="fields"><br>
-                    Constituição <input id="const" type="number" placeholder="00" class="fields"><br>
-                    Inteligencia <input id="intel" type="number" placeholder="00" class="fields"><br>
-                    Conhecimento <input id="conhe" type="number" placeholder="00" class="fields"><br>
-                    Carisma <input id="charis" type="number" placeholder="00" class="fields"><br>
-                    <input id="btnRoll" type="button" value="Roll D6" onclick="rollDice()">
+                    Força           <input name="forc" id="forc" type="number" placeholder="00" class="fields"><br>
+                    Destreza        <input name="dest" id="dest" type="number" placeholder="00" class="fields"><br>
+                    Constituição    <input name="const" id="const" type="number" placeholder="00" class="fields"><br>
+                    Inteligencia    <input name="intel" id="intel" type="number" placeholder="00" class="fields"><br>
+                    Conhecimento    <input name="conhe" id="conhe" type="number" placeholder="00" class="fields"><br>
+                    Carisma         <input name="car" id="charis" type="number" placeholder="00" class="fields"><br>
+                                    <input id="btnRoll" type="button" value="Roll D6" onclick="rollDice()">
                 </fieldset>
             </div>
+            <br>
+            Itens <textarea name="char_itens" style="height:150px" ></textarea>
+
             
 
         </form>
     </fieldset>
+
+</div>
 </body>
 
 </html>
