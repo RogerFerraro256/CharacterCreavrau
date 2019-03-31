@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+.stats{
+    width: 200px;
+    
+    float: left;
+    /*
+    background-color: white;
+    */
+}
+
+.fields{
+    width: 40px;
+    color: black;
+}
